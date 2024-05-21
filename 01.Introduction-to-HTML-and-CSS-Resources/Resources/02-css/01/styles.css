@@ -6,3 +6,7 @@ p {
     font-size: 20px;
     color: aquamarine;
 }
+
+.highlighted {
+    background-color: yellow;
+}
