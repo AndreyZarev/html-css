@@ -11,6 +11,14 @@ p {
     background-color: yellow;
 }
 
-.special {
-    font-style: oblique;
+#special {
+    font-style: italic;
+}
+
+ul {
+    background-color: blueviolet;
+}
+
+div {
+    background-color: brown;
 }
