@@ -22,3 +22,13 @@ h1 {
     margin: 0;
     padding-top: 0;
 }
+
+
+.special {
+    margin-bottom: 2px;
+}
+
+section {
+
+    padding: 20px;
+}
