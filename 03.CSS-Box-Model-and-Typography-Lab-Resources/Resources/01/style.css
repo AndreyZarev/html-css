@@ -1,0 +1,8 @@
+p {
+    border: solid 2 px black;
+}
+
+
+.block p {
+    display: block;
+}
