@@ -6,7 +6,7 @@ h1 {
 div {
     border: solid 2px black;
     padding: 2%;
-    max-width: 2444px;
+    max-width: 1300px;
 }
 
 div p {
@@ -20,6 +20,6 @@ div p {
 
 }
 
-div div {
+div+div {
     margin-top: 50px;
 }
