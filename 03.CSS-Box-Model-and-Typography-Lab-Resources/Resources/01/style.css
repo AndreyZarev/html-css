@@ -11,6 +11,7 @@ div {
 
 div p {
     border: solid 2px black;
+    padding: 17px;
 
 }
 
@@ -22,4 +23,16 @@ div p {
 
 div+div {
     margin-top: 50px;
+}
+
+.inline {
+    padding-bottom: 1%;
+}
+
+.inline p {
+    display: inline;
+}
+
+.inline-block p {
+    display: inline-block;
 }
