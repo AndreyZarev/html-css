@@ -1,8 +1,25 @@
-p {
-    border: solid 2 px black;
+h1 {
+    border: none;
+}
+
+
+div {
+    border: solid 2px black;
+    padding: 2%;
+    max-width: 2444px;
+}
+
+div p {
+    border: solid 2px black;
+
 }
 
 
 .block p {
     display: block;
+
+}
+
+div div {
+    margin-top: 50px;
 }
