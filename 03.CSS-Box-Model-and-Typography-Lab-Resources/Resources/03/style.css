@@ -4,13 +4,17 @@ div div {
 
 .marginAll {
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .marginNon {
+    padding: 30px;
+
     margin: 10px 30px 20px 40px;
 }
 
 .marginNag {
+    padding: 30px;
+
     margin: -20px;
 }
