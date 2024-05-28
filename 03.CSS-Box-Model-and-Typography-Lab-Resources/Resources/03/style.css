@@ -1,7 +1,15 @@
+div div {
+    border: 2px solid #000;
+}
+
 .marginAll {
     margin: 20px;
 }
 
 .marginNon {
     margin: 10px 30px 20px 40px;
+}
+
+.marginNag {
+    margin: -20px;
 }
