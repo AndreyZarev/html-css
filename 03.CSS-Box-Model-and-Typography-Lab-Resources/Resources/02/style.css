@@ -1,6 +1,6 @@
 div {
     border: 2px solid black;
-    max-width: 1200px;
+
 }
 
 div+div {
@@ -20,6 +20,7 @@ div+div {
     padding: 5%;
 }
 
-.container {
-    padding: 0 10rem;
-}
+/* .container {
+    padding: 0 5rem;
+    border: none;
+} */
