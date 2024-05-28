@@ -1,0 +1,20 @@
+div {
+    border: 2px solid black;
+}
+
+div+div {
+    margin-top: 1%;
+}
+
+.marginA {
+    padding: 20px;
+}
+
+.marginD {
+    padding: 10px 30px 20px 40px;
+}
+
+
+.marginP {
+    padding: 5%;
+}
