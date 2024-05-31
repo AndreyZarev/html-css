@@ -1,42 +1,37 @@
-section {
-    max-width: 35%;
-}
+section {}
 
 
 div {
     border: 2px solid black;
     padding: 20px;
+    max-width: 25%;
 }
 
 div.flex-conteiner {
     margin-top: 2em;
     display: flex;
     border: 2px solid blue;
-}
-
-
-.flex-conteiner.row {
-
-    flex-direction: row;
 
 }
 
-.flex-conteiner.row-reverse {
 
-    flex-direction: row-reverse;
+.flex-item.nowrap {
 
-}
-
-.flex-conteiner.column {
-
-    flex-direction: column;
+    flex-wrap: nowrap;
 
 }
 
-.flex-conteiner.column-reverse {
+.flex-item.wrap {
 
-    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
 
 }
 
-.flex-item {}
+
+
+
+.flex-item.wrap-reverse {
+    flex-wrap: wrap-reverse;
+    display: inline-block;
+}
