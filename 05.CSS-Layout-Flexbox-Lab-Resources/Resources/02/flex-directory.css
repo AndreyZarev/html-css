@@ -5,13 +5,32 @@ div {
 
 div .flex-conteiner {
     margin-top: 2em;
+    display: flex;
+    border: 2px solid blue;
 }
 
 
-.flex-conteiner {
-    display: flex;
-    border: 2px solid blue;
+.flex-conteiner.row {
+
+    flex-direction: row;
+
+}
+
+.flex-conteiner.row-reverse {
+
     flex-direction: row-reverse;
+
+}
+
+.flex-conteiner.column {
+
+    flex-direction: column;
+
+}
+
+.flex-conteiner.column-reverse {
+
+    flex-direction: column-reverse;
 
 }
 
