@@ -7,24 +7,24 @@
 
 }
 
-.flex-conteiner {
+div.flex-container {
 
     margin-top: 2em;
     display: flex;
     border: 2px solid blue;
     width: 400px;
-
+    padding: 2em;
 
 }
 
 
-.flex-conteiner.nowrap {
+div.flex-conteiner.nowrap {
 
     flex-wrap: nowrap;
 
 }
 
-.flex-conteiner.wrap {
+div.flex-conteiner.wrap {
 
     flex-wrap: wrap;
 
