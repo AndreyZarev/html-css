@@ -18,13 +18,12 @@ div.flex-container {
 }
 
 
-div.flex-conteiner.nowrap {
-
+div.nowrap {
     flex-wrap: nowrap;
 
 }
 
-div.flex-conteiner.wrap {
+div.wrap {
 
     flex-wrap: wrap;
 
@@ -34,6 +33,6 @@ div.flex-conteiner.wrap {
 
 
 
-.flex-conteiner.wrap-reverse {
+div.wrap-reverse {
     flex-wrap: wrap-reverse;
 }
