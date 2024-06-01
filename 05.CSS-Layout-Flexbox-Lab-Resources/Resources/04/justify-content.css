@@ -18,14 +18,14 @@ div.flex-container {
 }
 
 
-div.nowrap {
-    flex-wrap: nowrap;
+div.center {
+    justify-content: center;
 
 }
 
-div.wrap {
+div.flex-end {
 
-    flex-wrap: wrap;
+    justify-content: flex-end;
 
 
 }
@@ -33,6 +33,17 @@ div.wrap {
 
 
 
-div.wrap-reverse {
-    flex-wrap: wrap-reverse;
+div.space-between {
+    justify-content: space-between;
+
+}
+
+div.space-evenly {
+    justify-content: space-evenly;
+
+}
+
+div.space-around {
+    justify-content: space-around;
+
 }
