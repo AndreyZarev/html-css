@@ -1,0 +1,51 @@
+.flex-item {
+    border: 2px solid #000000;
+    padding: 20px;
+    background-color: #eee;
+    display: inline;
+    margin: 0;
+    flex-basis: 300px;
+
+
+}
+
+div.flex-container {
+
+    margin-top: 2em;
+    display: flex;
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+
+
+}
+
+div.width-900 {
+    width: 900px;
+}
+
+div.flex-basis-5 {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 5em;
+}
+
+
+div.flex-shrink-0 {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 5em;
+    flex-shrink: 0;
+    max-width: 5em;
+}
+
+
+
+
+div.second-child-only {
+    align-content: center;
+    flex-wrap: wrap;
+    flex-basis: 5em;
+    min-width: 5em;
+    flex-grow: 1;
+}
