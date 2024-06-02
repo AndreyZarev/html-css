@@ -1,0 +1,50 @@
+.flex-item {
+    border: 2px solid #000000;
+    padding: 20px;
+    background-color: #eee;
+    display: inline-block;
+
+
+}
+
+div.flex-container {
+
+    margin-top: 2em;
+    display: flex;
+    border: 2px solid blue;
+    width: 400px;
+    padding: 2em;
+    min-height: 10em;
+
+}
+
+
+
+
+div.stretch {
+
+    align-items: stretch;
+
+
+}
+
+div.flex-start {
+    align-items: flex-start;
+}
+
+
+
+div.center {
+    align-items: center;
+
+}
+
+div.flex-end {
+    align-items: flex-end;
+
+}
+
+div.baseline {
+    align-items: baseline;
+
+}
