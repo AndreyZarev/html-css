@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex-basis.css">
+</head>
+
+<body>
+
+
+    <h1>
+        flex-basis
+
+    </h1>
+
+    <h2>
+        flex-basis: 5em;
+
+
+    </h2>
+
+    <div class="flex-container ">
+        <div class="flex-item flex-basis-5">1</div>
+        <div class="flex-item flex-basis-5">2</div>
+        <div class="flex-item flex-basis-5">3</div>
+        <div class="flex-item flex-basis-5">4</div>
+        <div class="flex-item flex-basis-5">5</div>
+        <div class="flex-item flex-basis-5">6</div>
+
+    </div>
+
+
+    <h2>
+        flex-basis: 5em; flex-shrink: 0; (max-width: 5em)
+
+
+
+    </h2>
+    <div class="flex-container">
+        <div class="flex-item flex-shrink-0">1</div>
+        <div class="flex-item flex-shrink-0">2</div>
+        <div class="flex-item flex-shrink-0">3</div>
+        <div class="flex-item flex-shrink-0">4</div>
+        <div class="flex-item flex-shrink-0">5</div>
+        <div class="flex-item flex-shrink-0">6</div>
+
+    </div>
+
+
+
+    <h2>
+        flex-basis: 5em; flex-grow: 1; (min-width: 5em)
+
+
+    </h2>
+    <div class="flex-container width-900">
+        <div class="flex-item min-width">1</div>
+        <div class="flex-item min-width">2</div>
+        <div class="flex-item min-width">3</div>
+        <div class="flex-item min-width">4</div>
+        <div class="flex-item min-width">5</div>
+        <div class="flex-item min-width">6</div>
+
+    </div>
+
+
+
+</body>
+
+</html>
