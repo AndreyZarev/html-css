@@ -1,0 +1,66 @@
+.flex-item {
+    border: 2px solid #000000;
+    padding: 20px;
+    background-color: #eee;
+    display: inline;
+    margin: 0;
+
+
+
+}
+
+div.flex-container {
+
+    margin-top: 2em;
+    display: flex;
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+    height: 200px;
+
+}
+
+
+
+div.flex-start {
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+
+div.center {
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+div.center-second {
+    align-self: center;
+}
+
+/* --------------------------- */
+
+div.flex-end {
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+div.flex-end-second {
+
+    align-self: flex-end;
+}
+
+
+
+
+/* --------------------------- */
+
+
+div.baseline {
+    align-items: flex-start;
+    align-self: baseline;
+    flex-wrap: wrap;
+
+}
