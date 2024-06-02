@@ -1,0 +1,43 @@
+.flex-item {
+    border: 2px solid #000000;
+    padding: 20px;
+    background-color: #eee;
+    display: inline;
+    margin: 0;
+    flex-basis: 300px;
+
+
+}
+
+div.flex-container {
+
+    margin-top: 2em;
+    display: flex;
+    border: 2px solid blue;
+    width: 300px;
+    padding: 1em;
+
+
+}
+
+
+
+
+
+
+div.flex-shrink-0 {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+}
+
+
+
+
+div.second-child-only {
+    align-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+
+}
