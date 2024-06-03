@@ -17,7 +17,6 @@ gap row (gap: 2em 0;)
 12
 
 
-gap column (gap: 0 2em;)
 
 1
 2
@@ -33,7 +32,6 @@ gap column (gap: 0 2em;)
 12
 
 
-gap (gap: 2em;)
 
 1
 2
