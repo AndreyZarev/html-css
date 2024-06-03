@@ -1,7 +1,6 @@
 
 align-content
 
-align-content: flex-start; (default)
 
 1
 2
@@ -17,7 +16,6 @@ align-content: flex-start; (default)
 12
 
 
-align-content: center;
 
 1
 2
@@ -33,7 +31,6 @@ align-content: center;
 12
 
 
-align-content: flex-end;
 
 1
 2
@@ -49,7 +46,6 @@ align-content: flex-end;
 12
 
 
-align-content: space-between;
 
 1
 2
@@ -65,7 +61,6 @@ align-content: space-between;
 12
 
 
-align-content: space-around;
 
 1
 2
