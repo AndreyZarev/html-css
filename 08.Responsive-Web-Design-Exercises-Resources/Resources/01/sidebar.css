@@ -1,0 +1,34 @@
+@media (max-width: 800px) {}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.5 "lato", sans-serif;
+}
+
+div {
+    border: 2px solid black;
+
+}
+
+section {
+    border: 2px solid gray;
+    padding: 2em;
+    border-radius: 1%;
+    margin-top: 1em;
+
+}
+
+div.container {
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+}
+
+div.main {
+    border: none;
+}
