@@ -9,6 +9,10 @@ html {
     border-style: inherit;
 }
 
+body {
+    background-color: gray;
+}
+
 main {
     padding: 2em;
 }
