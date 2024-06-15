@@ -75,7 +75,7 @@ h3 {
     }
 
     nav>ul>li {
-        border: 2px solid black;
+        border: 2px solid rgba(0, 0, 0, 0);
         color: white;
         background-color: rgb(66, 64, 64);
         padding: 1em;
