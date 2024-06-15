@@ -80,6 +80,6 @@ h3 {
         background-color: rgb(66, 64, 64);
         padding: 1em;
         list-style: none;
-
+        flex: 1 0 auto;
     }
 }
