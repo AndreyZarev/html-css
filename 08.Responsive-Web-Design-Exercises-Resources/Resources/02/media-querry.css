@@ -23,6 +23,7 @@ nav>ul>li {
     color: white;
     background-color: rgb(66, 64, 64);
     padding: 1em;
+    list-style: none;
 }
 
 @media (max-width: 600px) {}
