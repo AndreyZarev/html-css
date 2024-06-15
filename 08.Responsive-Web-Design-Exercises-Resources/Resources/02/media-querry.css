@@ -8,3 +8,17 @@ html {
     box-sizing: border-box;
     border-style: inherit;
 }
+
+main {
+    padding: 2em;
+}
+
+nav>ul>li {
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 64, 64);
+    padding: 1em;
+}
+
+@media (max-width: 600px) {}
