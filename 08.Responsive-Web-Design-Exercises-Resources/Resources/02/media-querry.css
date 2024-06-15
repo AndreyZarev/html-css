@@ -71,7 +71,7 @@ h3 {
 
 @media (min-width: 1000px) {
     nav>ul {
-        display: block;
+        display: flex;
     }
 
     nav>ul>li {
@@ -80,6 +80,6 @@ h3 {
         background-color: rgb(66, 64, 64);
         padding: 1em;
         list-style: none;
-        display: inline;
+
     }
 }
