@@ -5,6 +5,7 @@
 
 html {
     font: 14px/1.5 "Lato", "Sans-serif", "Helvetica Neue", Helvetica;
+    box-sizing: border-box;
 }
 
 
@@ -22,7 +23,7 @@ input[type="checkbox"] {
 
 input {
     padding: 0.5em;
-    margin: 0.5em auto;
+    /* margin: 0.5em auto; */
     flex: 1 0 auto;
 }
 
