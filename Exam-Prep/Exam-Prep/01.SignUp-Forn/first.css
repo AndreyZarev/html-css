@@ -11,14 +11,24 @@ html {
 
 .container {
     background-color: #24333C;
-    width: 500px;
+    max-width: 500px;
     display: flex;
     border: 2px solid #24333C;
     margin: 5em auto;
 }
 
+form {
+    flex: 1 0 auto;
+}
+
 input[type="checkbox"] {
     display: none;
+}
+
+
+label {
+    background-color: #1AB188;
+    padding: 1em;
 }
 
 input {
