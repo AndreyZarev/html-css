@@ -33,16 +33,32 @@ input[type="checkbox"] {
     display: flex;
 }
 
-label {
+.sign-log label {
     background-color: #1AB188;
     padding: 1em;
     margin: 0 auto;
+    flex: 1 0 auto;
+    color: white;
+}
+
+
+
+.names::before {
+    content: "*";
+    color: white;
+    z-index: 5;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+
 }
 
 input {
     padding: 0.5em;
     /* margin: 0.5em auto; */
     flex: 1 0 auto;
+    background-color: #24333C;
+
 }
 
 
@@ -50,14 +66,30 @@ input {
     display: flex;
     flex-direction: column;
     gap: 1em;
+
+}
+
+h1 {
+    padding: 1em;
+    color: white;
+    word-spacing: 0.3em;
+    text-align: center;
 }
 
 .names {
     display: flex;
     gap: 1em;
+    margin-bottom: 1em;
 }
 
 #first-name,
 #last-name {
     flex: 1 0 auto;
+}
+
+input[type="button"] {
+    background-color: #1AB188;
+    padding: 1.5em;
+    font-size: 18px;
+    color: white;
 }
