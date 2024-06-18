@@ -1,14 +1,16 @@
 .container {
     background-color: #24333C;
-    width: 800px;
+    width: 500px;
     display: flex;
     border: 2px solid #24333C;
+    margin: 5em auto;
 }
 
 input[type="checkbox"] {
     display: none;
 }
 
-input[type="checkbox"]#log {
-    background-color: green;
+input {
+    padding: 1em;
+    margin-right: 1em;
 }
