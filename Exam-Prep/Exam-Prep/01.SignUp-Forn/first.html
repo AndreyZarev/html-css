@@ -11,19 +11,24 @@
 <body>
     <div class="container">
         <form action="#">
-            <label for="sign">Sign Up</label>
-            <input type="checkbox" id="sign">
+            <div class="sign-log">
+                <label class="sign" for="sign">Sign Up</label>
+                <input type="checkbox" id="sign">
 
-            <label for="log">Log In</label>
-            <input type="checkbox" id="log">
+                <label class="log" for="log">Log In</label>
+                <input type="checkbox" id="log">
+            </div>
+            <h1>Sign Up for Free</h1>
 
-            <h2>Sign Up for Free</h2>
-            <input type="text" value="First Name">
-            <input type="text" value="Last Name">
+            <div class="names">
+
+                <input type="text" id="first-name" placeholder="First Name">
+                <input type="text" id="last-name" placeholder="Last Name">
+            </div>
             <div class="inputs">
 
-                <input type="email" value="Email Address">
-                <input type="password" value="Set A Password">
+                <input type="email" id="email" placeholder="Email Address">
+                <input type="password" id="password" placeholder="Set A Password">
                 <input type="button" value="Get Started">
             </div>
         </form>
