@@ -1,0 +1,116 @@
+@media (max-width: 600px) {
+    .home-header {
+        height: auto;
+
+    }
+
+    .home-container01 {
+        margin: 0 auto;
+    }
+
+    .home-nav {
+        padding-left: 0;
+    }
+
+
+    /* --------homeblog-------- */
+    /* .home-container {
+        padding: 2em;
+    } */
+
+    .home-container04 {
+        padding: 2em;
+    }
+
+    .blog-post-card3-blog-post-card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .blog-post-card3-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .blog-post-card3-container span {
+        flex: 1 0 auto;
+    }
+
+    /* ------second one ---------------- */
+
+    .blog-post-card3-blog-post-card.blog-post-card3-root-class-name2 {
+        display: flex;
+        box-sizing: border-box;
+        overflow: hidden;
+
+    }
+
+    .blog-post-card3-blog-post-card.blog-post-card3-root-class-name2 img {
+        flex: 1 1 auto;
+    }
+
+    .blog-post-card3-blog-post-card.blog-post-card3-root-class-name {
+        width: auto;
+    }
+
+    .blog-post-card3-container {
+        padding: 2em 0;
+    }
+
+    /* 
+--------------next stats-------------- */
+
+    .home-stats {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home-stats div {
+        flex: 1 1 30%;
+    }
+
+    div.home-container .home-header .home-nav nav {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .home-container06 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .home-container07 {
+        flex: 1 0 auto;
+    }
+
+    .home-container08 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2em;
+    }
+
+    .home-container09 {
+        width: 364px;
+        flex: 1 0 auto;
+        margin: 0 auto;
+    }
+
+    .home-container10 {
+        width: 364px;
+        flex: 1 0 auto;
+        margin: 0 auto;
+    }
+
+    div.home-container .home-header .home-nav nav span {
+        display: block;
+        margin: 0.2em auto;
+
+    }
+
+}
