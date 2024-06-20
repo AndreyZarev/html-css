@@ -1,8 +1,15 @@
 @media (max-width: 600px) {
+
+    html {
+        box-sizing: border-box;
+    }
+
     .home-header {
         height: auto;
 
     }
+
+
 
     .home-container01 {
         margin: 0 auto;
@@ -42,21 +49,20 @@
 
     .blog-post-card3-blog-post-card.blog-post-card3-root-class-name2 {
         display: flex;
-        box-sizing: border-box;
+        gap: 2em;
         overflow: hidden;
 
     }
 
-    .blog-post-card3-blog-post-card.blog-post-card3-root-class-name2 img {
-        flex: 1 1 auto;
-    }
+
 
     .blog-post-card3-blog-post-card.blog-post-card3-root-class-name {
         width: auto;
     }
 
     .blog-post-card3-container {
-        padding: 2em 0;
+        padding: 2em 3em;
+        overflow: hidden;
     }
 
     /* 
