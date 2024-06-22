@@ -7,3 +7,33 @@
 html {
     font: 14px/1.5 "Lat", sans-serif;
 }
+
+header {
+    background-image: url(./images/background.jpg);
+}
+
+header ul {
+    display: flex;
+    gap: 1em;
+    padding: 3em;
+    justify-content: flex-end;
+
+}
+
+ul li {
+    list-style: none outside;
+    font-size: 9px;
+
+
+}
+
+header div {
+    padding: 5em;
+    text-align: center;
+}
+
+header div button {
+    margin: 2em;
+}
+
+/* ---------catalog 1 */
