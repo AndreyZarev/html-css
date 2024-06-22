@@ -8,6 +8,13 @@ html {
     font: 14px/1.5 "Lat", sans-serif;
 }
 
+
+section {
+    display: flex;
+}
+
+
+
 header {
     background-image: url(./images/background.jpg);
 }
