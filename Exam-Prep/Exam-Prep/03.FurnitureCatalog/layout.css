@@ -9,9 +9,7 @@ html {
 }
 
 
-section {
-    display: flex;
-}
+
 
 
 
@@ -51,6 +49,22 @@ header div button {
     background-color: lightblue;
 }
 
+.catalog-1 h3,
+p {
+    text-align: center;
+}
+
 .catalog-1 img {
-    width: 20%;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-1,
+.project-2 {
+    display: flex;
+    gap: 2em;
+    background-color: white;
+    font-size: 12;
 }
