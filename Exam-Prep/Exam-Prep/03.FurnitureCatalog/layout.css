@@ -48,4 +48,9 @@ header div button {
 
 .catalog-1 {
     padding: 5em;
+    background-color: lightblue;
+}
+
+.catalog-1 img {
+    width: 20%;
 }
