@@ -47,6 +47,10 @@ header div button {
 .catalog-1 {
     padding: 5em;
     background-color: lightblue;
+
+}
+
+div.catalog-1-2 {
     display: flex;
 }
 
