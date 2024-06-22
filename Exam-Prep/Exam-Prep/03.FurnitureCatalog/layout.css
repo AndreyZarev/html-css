@@ -47,6 +47,7 @@ header div button {
 .catalog-1 {
     padding: 5em;
     background-color: lightblue;
+    display: flex;
 }
 
 .catalog-1 h3,
@@ -57,7 +58,7 @@ p {
 .catalog-1 img {
     width: 50%;
     height: auto;
-    display: flex;
+
     flex-direction: row;
 }
 
