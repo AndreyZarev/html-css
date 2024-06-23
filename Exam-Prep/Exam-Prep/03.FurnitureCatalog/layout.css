@@ -45,14 +45,15 @@ header div button {
 
 
 .catalog-1 {
-    padding: 5em;
+    padding: 2em;
     background-color: lightblue;
 
 }
 
 div.project-1-2 {
     display: flex;
-    gap: 10em;
+    gap: 2em;
+    margin: 0 auto;
 }
 
 .catalog-1 h3,
@@ -65,17 +66,24 @@ p {
 }
 
 .catalog-1 img {
-    width: 50%;
-    height: auto;
 
-    flex-direction: row;
+    height: 100%;
+    width: 50%;
 }
+
 
 .project-1,
 .project-2 {
     display: flex;
-    gap: 2em;
+    font-size: 9px;
     background-color: white;
-    font-size: 10px;
-    width: 40%;
+    height: auto;
+    overflow: hidden;
+    width: 20%;
+    flex: 1 1 auto;
+
+}
+
+.project-2 {
+    flex: 1 1 auto;
 }
