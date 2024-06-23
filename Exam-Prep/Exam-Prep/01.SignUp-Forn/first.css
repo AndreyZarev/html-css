@@ -14,7 +14,8 @@ body {
 
 .container {
     background-color: #24333C;
-    max-width: 500px;
+    max-width: 750px;
+
     display: flex;
     border: 2px solid #24333C;
     margin: 5em auto;
