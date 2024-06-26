@@ -13,4 +13,6 @@ article {
 
 div {
     padding: 1em;
+    border: 1px dotted black;
+    margin-top: 1em;
 }
