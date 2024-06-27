@@ -8,3 +8,7 @@ article {
 .rules p {
     border-bottom: 1px dotted black;
 }
+
+.container p {
+    border-bottom: 1px dotted black;
+}
