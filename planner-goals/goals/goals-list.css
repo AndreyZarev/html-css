@@ -1,0 +1,8 @@
+article {
+    border: 2px solid black;
+
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.rules p {}
